@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Instagram</title>
+    <style>
+        /* Remover scroll horizontal */
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contêiner Principal -->
+    <div class="h-screen w-screen flex items-center justify-center overflow-hidden">
+        
+        <!-- Imagem Principal (Esquerda) -->
+        <div class="flex justify-center">
+            <img class="w-80 max-w-full" src="/img/insta-img.png" alt="Imagem principal">
+        </div>
+
+        <!-- Formulário (Direita) -->
+        <div class="flex flex-col items-center justify-center ml-10">
+            <form class="w-88 flex flex-col justify-center items-center border rounded-sm px-10 gap-4">
+                <img class="w-52" src="/img/insta-logo.png" alt="Logo Instagram">
+                <input class="bg-slate-50 h-9 w-full pl-1 border rounded-sm" placeholder="Número de Telefone, email">
+                <input class="bg-slate-50 h-9 w-full pl-1 border rounded-sm" placeholder="Senha">
+                <button class="bg-blue-400 w-full rounded-md h-8 text-slate-50 hover:bg-blue-300">Entrar</button>
+                <a class="text-blue-800 font-bold">Logar com o Facebook</a>
+                <a class="text-blue-800 text-sm cursor-pointer">Esqueci minha Senha</a>
+            </form> 
+
+            <div class="border w-80 my-4 text-center">
+                <p>Não tem conta? <a class="text-blue-400 font-bold">Cadastre-se</a></p>
+            </div>
+
+            <p>Baixe o Aplicativo</p>
+            <div class="flex gap-2 mt-4">
+                <img class="h-10" src="/img/apple.png" alt="App Store">
+                <img class="h-10" src="/img/google.png" alt="Google Play">
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="mt-10">
+        <ul class="flex flex-wrap gap-5 justify-center">
+            <li class="text-slate-800 text-sm">Meta</li>
+            <li class="text-slate-800 text-sm">Sobre</li>
+            <li class="text-slate-800 text-sm">Blog</li>
+            <li class="text-slate-800 text-sm">Carreiras</li>
+            <li class="text-slate-800 text-sm">Ajuda</li>
+            <li class="text-slate-800 text-sm">API</li>
+            <li class="text-slate-800 text-sm">Privacidade</li>
+            <li class="text-slate-800 text-sm">Termos</li>
+            <li class="text-slate-800 text-sm">Localizações</li>
+            <li class="text-slate-800 text-sm">Instagram Lite</li>
+            <li class="text-slate-800 text-sm">Threads</li>
+            <li class="text-slate-800 text-sm">Carregamento de contatos e não usuários</li>
+            <li class="text-slate-800 text-sm">Meta Verified</li>
+        </ul>
+        <ul class="flex flex-wrap gap-5 justify-center mt-6">
+            <li class="text-slate-800">Português (Brasil)</li>
+            <li class="text-slate-800">© 2024 Instagram from Meta</li>
+        </ul>
+    </div>
+
+</body>
+</html>
