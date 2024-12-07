@@ -35,8 +35,7 @@ Aqui está uma imagem de como o Instagram clone se parece:
 > **Nota:** Certifique-se de que todos os arquivos (HTML e Tailwind CSS) estejam na mesma pasta para garantir o funcionamento correto do projeto.
 
 ## Créditos
-Este projeto foi inspirado no tutorial do canal, que pode ser encontrado aqui ().
-Embora tenha sido baseado no tutorial, todo o código foi escrito manualmente por mim, para garantir melhor aprendizado e prática.
+Este projeto foi inspirado no tutorial do canal Devclub, que pode ser encontrado aqui (https://www.youtube.com/@canaldevclub). Embora tenha sido baseado no tutorial, todo o código foi escrito manualmente por mim, para garantir melhor aprendizado e prática.
 
 ## Licença
 
