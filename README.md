@@ -30,7 +30,7 @@ Este projeto é desenvolvido em **HTML** e **Tailwind CSS**. Este é um projeto 
 
 Aqui está uma imagem de como o Instagram clone se parece:
 
-![Login Instagram]
+![Login Instagram]![login](https://github.com/user-attachments/assets/d9afccb3-8cb4-4f17-bffc-910cc81607c3)
 
 > **Nota:** Certifique-se de que todos os arquivos (HTML e Tailwind CSS) estejam na mesma pasta para garantir o funcionamento correto do projeto.
 
